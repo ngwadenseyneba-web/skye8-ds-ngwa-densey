@@ -1,0 +1,41 @@
+# Data files
+data/*.csv
+data/*.xlsx
+data/*.xls
+data/*.json
+data/*.parquet
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment / secrets
+.env
+.env.*
+*.pem
+*.key
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Database dumps
+*.sql.gz
+*.dump
