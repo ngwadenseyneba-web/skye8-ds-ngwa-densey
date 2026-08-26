@@ -1,41 +1,25 @@
-# Data files
+# Project data
 data/*.csv
 data/*.xlsx
 data/*.xls
 data/*.json
 data/*.parquet
 
+# Environment variables / secrets
+.env
+.env.*
+
 # Python
 __pycache__/
 *.py[cod]
-*.pyo
-*.pyd
 
-# Virtual environments
+# Virtual environment
 .venv/
 venv/
-env/
 
 # Jupyter
 .ipynb_checkpoints/
 
-# Environment / secrets
-.env
-.env.*
-*.pem
-*.key
-
 # IDE
 .vscode/
 .idea/
-
-# OS
-.DS_Store
-Thumbs.db
-
-# Logs
-*.log
-
-# Database dumps
-*.sql.gz
-*.dump
